@@ -53,7 +53,7 @@
                 {
                 "type": "wireguard",
                 "tag": "IP->Main, hamedp71:Ahar",
-                "detour": "IP->Iran, Yotube:Geekmeek",
+                "detour": "IP->Iran, hamedp71:Ahar",
                 "local_address": [
                         "172.16.0.2/32",
                         "2606:4700:110:81d2:e8d3:2503:5c9e:f7b7/128"
