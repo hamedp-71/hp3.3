@@ -29,8 +29,8 @@
                 "type": "urltest",
                 "tag": "auto",
                 "outbounds": [
-                        "IP->Iran, Yotube:Geekmeek",
-                        "IP->Main, Yotube:Geekmeek"
+                        "IP->Iran, hamedp71:Ahar",
+                        "IP->Main, hamedp71:Ahar"
                 ],
                 "url": "http://cp.cloudflare.com/",
                 "interval": "10m0s"
