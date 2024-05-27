@@ -29,15 +29,15 @@
                 "type": "urltest",
                 "tag": "auto",
                 "outbounds": [
-                        "IP->Iran, hamedp71:Ahar",
-                        "IP->Main, hamedp71:Ahar"
+                        "IP->Iran, Yotube:Geekmeek",
+                        "IP->Main, Yotube:Geekmeek"
                 ],
                 "url": "http://cp.cloudflare.com/",
                 "interval": "10m0s"
                 },
                 {
                 "type": "wireguard",
-                "tag": "IP->Iran, Yotube:Geekmeek",
+                "tag": "IP->Iran, hamedp71:Ahar",
                 "local_address": [
                         "172.16.0.2/32",
                         "2606:4700:110:8a72:6ce6:154:e7f0:bec0/128"
@@ -52,8 +52,8 @@
                 },
                 {
                 "type": "wireguard",
-                "tag": "IP->Main, Yotube:Geekmeek",
-                "detour": "IP->Iran, Yotube:Geekmeek",
+                "tag": "IP->Main, hamedp71:Ahar",
+                "detour": "IP->Iran, hamedp71:Ahar",
                 "local_address": [
                         "172.16.0.2/32",
                         "2606:4700:110:81d2:e8d3:2503:5c9e:f7b7/128"
