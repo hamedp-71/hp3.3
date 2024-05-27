@@ -20,8 +20,8 @@
                 {                                                       "type": "selector",
                 "tag": "select",                                        "outbounds": [
                         "auto",
-                        "IP->Iran, hamedp71:Ahar",
-                        "IP->Main, hamedp71:Ahar"
+                        "IP->Iran, Yotube:Geekmeek",
+                        "IP->Main, Yotube:Geekmeek"
                 ],
                 "default": "auto"
                 },
@@ -37,7 +37,7 @@
                 },
                 {
                 "type": "wireguard",
-                "tag": "IP->Iran, hamedp71:Ahar",
+                "tag": "IP->Iran, Yotube:Geekmeek",
                 "local_address": [
                         "172.16.0.2/32",
                         "2606:4700:110:8a72:6ce6:154:e7f0:bec0/128"
@@ -52,7 +52,7 @@
                 },
                 {
                 "type": "wireguard",
-                "tag": "IP->Main, hamedp71:Ahar",
+                "tag": "IP->Main, Yotube:Geekmeek",
                 "detour": "IP->Iran, Yotube:Geekmeek",
                 "local_address": [
                         "172.16.0.2/32",
