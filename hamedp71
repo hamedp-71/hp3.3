@@ -20,8 +20,8 @@
                 {                                                       "type": "selector",
                 "tag": "select",                                        "outbounds": [
                         "auto",
-                        "IP->Iran, Yotube:Geekmeek",
-                        "IP->Main, Yotube:Geekmeek"
+                        "IP->Iran, hamedp71:Ahar",
+                        "IP->Main, hamedp71:Ahar"
                 ],
                 "default": "auto"
                 },
